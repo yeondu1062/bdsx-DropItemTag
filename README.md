@@ -5,6 +5,13 @@ This is a plugin that displays information about dropped items that can be used 
 
 
 ## Custom
+You can customize the plugin by editing the [Setting](./setting.json) file.
+```javascript
+{
+    "updateTick": 100,
+    "tagText": "§r{name}§r §l§8| §fx{amount}"
+}
+```
 
 
 ## License
